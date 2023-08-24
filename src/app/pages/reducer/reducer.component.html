@@ -1,1 +1,30 @@
-<p>reducer works!</p>
+<div class="w-full h-full">
+
+    <div class="grid grid-cols-12 place-content-center w-full sm:mt-7 justify-items-center">
+        <div class="col-span-12 text-center font-sans text-xl font-extrabold text-slate-800">
+            <p>Simplificador de expresiones booleanas</p>
+        </div>
+        <div class="col-span-12 text-center text-red-800">
+            <p>Advertencia: esta herramienta está en fase de prueba, aún se trabaja en su funcionamiento</p>
+        </div>
+        <div class="col-span-12 text-center">
+            <p>Ingrese la expresión booleana:</p>
+        </div>
+        <div class="col-span-12 h-full">
+            <div class="grid grid-cols-12 items-center">
+                <div class="col-span-10">
+                    <input [pattern]="'^1234567890ABCDEFabcdef$'" [(ngModel)]="expression" class="w-full border rounded-md shadow-sm focus:ring focus:ring-blue-300 focus:border-blue-300" type="text">
+                </div>
+                <div class="col-span-2">
+                    <button>
+                        <div class="p-2 rounded rounded-full bg-sky-500 mx-2 hover:bg-sky-400">
+                            <svg width="35px" height="35px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M2.78 2L2 2.41v12l.78.42 9-6V8l-9-6zM3 13.48V3.35l7.6 5.07L3 13.48z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M6 14.683l8.78-5.853V8L6 2.147V3.35l7.6 5.07L6 13.48v1.203z"></path></g></svg>
+                        </div>
+                    </button>
+                    
+                </div>
+            </div> 
+        </div>
+
+    </div>
+</div>

@@ -9,6 +9,8 @@ export class ReducerComponent implements OnInit {
 
   constructor() { }
 
+  public expression:string = '';
+
   ngOnInit(): void {
   }
 

@@ -10,8 +10,8 @@ export class AppComponent implements OnInit {
 
   };
 
-  public isLoading : boolean = false;
-  public current : number = 3;
+  public isLoading : boolean = true;
+  public current : number = 1;
 
 
   ngOnInit(){

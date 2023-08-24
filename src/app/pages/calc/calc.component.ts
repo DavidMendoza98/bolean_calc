@@ -78,8 +78,6 @@ export class CalcComponent implements OnInit {
     this.numbers = []
     this.newInput = 0;
     this.resultado = -1;
-    this.base = "2";
-    this.operator = "+";
   }
 
 }

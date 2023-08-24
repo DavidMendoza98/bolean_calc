@@ -39,7 +39,7 @@
             <div class="col-span-12 h-full">
                 <div class="grid grid-cols-12 items-center">
                     <div class="col-span-10">
-                        <input (keypress)="changeInput($event)" [(ngModel)]="newInput" class="w-full border rounded-md shadow-sm focus:ring focus:ring-blue-300 focus:border-blue-300" type="text">
+                        <input (keypress)="changeInput($event)" [pattern]="'^1234567890ABCDEFabcdef$'" [(ngModel)]="newInput" class="w-full border rounded-md shadow-sm focus:ring focus:ring-blue-300 focus:border-blue-300" type="text">
                     </div>
                     <div class="col-span-2">
                         <button class=" hover:fill-lime-500" (click)="addNumber()">

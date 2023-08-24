@@ -1,1 +1,40 @@
-<p>about works!</p>
+<div class="w-full  grid grid-cols-12">
+    <div class="col-span-12 text-center mt-2 ">
+<pre class="font-sans text-xl  text-slate-800">
+Boolean Calc es un proyecto de la clase
+Arquitectura de Computadores II PAC 2023 de la Universidad Autónoma de Honduras
+en el Centro Universitario Regional del Litoral Pacífico
+</pre>
+
+<!-- <pre class="font-sans text-base">
+Este proyecto tiene 4 funciones principales: 
+1.- Un conversor de sistemas numéricos entre números decimales, binarios, octales y hexadecimales. 
+2.- Una Calculadora que realiza las 4 operaciones aritméticas (suma, resta, multiplicación y división), operando múltiples números al mismo tiempo, 
+    pudiendo hacerlo con números binarios, octales y hexadecimales. 
+3.- Un simplificador de expresiones booleanas utilizando el 
+    álgebra de Boole. 
+4.- Mostrar la historia del álgebra de Boole. (Este aún se encuentra en fase de pruebas)
+</pre> -->
+    </div>
+
+    <div class="col-span-12 text-center my-2 ">
+        <p class="font-sans text-xl  text-slate-800">
+            Este proyecto fue elaborado por:
+        </p>
+    </div>
+    <div class="col-span-12 flex gap-2 justify-center">
+        <nz-card nzHoverable style="width:240px" [nzCover]="Mafer">
+            <nz-card-meta nzTitle="Maria Fernanza Díaz" nzDescription="Estudiante trimestral UNAH"></nz-card-meta>
+          </nz-card>
+          <ng-template #Mafer>
+            <img alt="Mafer" src="../../../assets/MaFer.webp" />
+          </ng-template>
+
+          <nz-card nzHoverable style="width:240px" [nzCover]="David">
+            <nz-card-meta nzTitle="David Abraham Mendoza" nzDescription="Estudiante trimestral UNAH"></nz-card-meta>
+          </nz-card>
+          <ng-template #David>
+            <img alt="David" src="../../../assets/David.webp" />
+          </ng-template>
+    </div>
+</div>

@@ -14,7 +14,6 @@ import { HistoryComponent } from './pages/history/history.component';
 import { AboutComponent } from './pages/about/about.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { FormsModule } from '@angular/forms';
-import { InputValidationPipe } from './pipes/input-validation.pipe';
 import { environment } from '../environments/environment';
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { es_ES } from 'ng-zorro-antd/i18n';
@@ -24,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { NzPopconfirmModule } from 'ng-zorro-antd/popconfirm';
+import { NzCardModule } from 'ng-zorro-antd/card';
 
 registerLocaleData(es);
 
@@ -38,8 +38,7 @@ registerLocaleData(es);
     ReducerComponent,
     HistoryComponent,
     AboutComponent,
-    NotFoundComponent,
-    InputValidationPipe
+    NotFoundComponent
   ],
   imports: [
   
@@ -55,7 +54,8 @@ registerLocaleData(es);
     HttpClientModule,
     BrowserAnimationsModule,
 
-    NzPopconfirmModule
+    NzPopconfirmModule,
+    NzCardModule
   ],
   providers: [
     { provide: NZ_I18N, useValue: es_ES }
