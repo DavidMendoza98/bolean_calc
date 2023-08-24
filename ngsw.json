@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1692852912468,
+  "timestamp": 1692854895790,
   "index": "https://davidmendoza98.github.io/bolean_calc/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://davidmendoza98.github.io/bolean_calc/favicon.ico",
         "https://davidmendoza98.github.io/bolean_calc/index.html",
-        "https://davidmendoza98.github.io/bolean_calc/main.0946c2e3aaa87204.js",
+        "https://davidmendoza98.github.io/bolean_calc/main.01b4a5495517ba6e.js",
         "https://davidmendoza98.github.io/bolean_calc/manifest.webmanifest",
         "https://davidmendoza98.github.io/bolean_calc/polyfills.3054bb7c17421449.js",
         "https://davidmendoza98.github.io/bolean_calc/runtime.2ba312731bca9221.js",
@@ -3218,8 +3218,8 @@
     "https://davidmendoza98.github.io/bolean_calc/assets/twotone/warning.js": "fb2d7ea232f3a99bf8f080dbc94c65699232ac01",
     "https://davidmendoza98.github.io/bolean_calc/assets/twotone/warning.svg": "8c7a2d3e765a2e7dd58ac674870c6655cecb0068",
     "https://davidmendoza98.github.io/bolean_calc/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://davidmendoza98.github.io/bolean_calc/index.html": "76f87654b8fa9c19d6617280abc6583c1303684a",
-    "https://davidmendoza98.github.io/bolean_calc/main.0946c2e3aaa87204.js": "bce0803f86931a2cfa22e6a7a8cbccb125117c2e",
+    "https://davidmendoza98.github.io/bolean_calc/index.html": "dea35cecc3db5620d8a3af96ab64a0041a92a9c0",
+    "https://davidmendoza98.github.io/bolean_calc/main.01b4a5495517ba6e.js": "ece3519e5cc1cf81aca07d4b45bd6bc11a59a5c8",
     "https://davidmendoza98.github.io/bolean_calc/manifest.webmanifest": "a58c24d64532738dc2dd1b9ff40abbcebbdde68d",
     "https://davidmendoza98.github.io/bolean_calc/polyfills.3054bb7c17421449.js": "b6550452357d3cdbe447dd86923861de9219a399",
     "https://davidmendoza98.github.io/bolean_calc/runtime.2ba312731bca9221.js": "820de73848040f3b3888dd2bd04c3c898c633263",
