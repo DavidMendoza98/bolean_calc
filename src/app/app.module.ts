@@ -16,6 +16,16 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { FormsModule } from '@angular/forms';
 import { InputValidationPipe } from './pipes/input-validation.pipe';
 import { environment } from '../environments/environment';
+import { NZ_I18N } from 'ng-zorro-antd/i18n';
+import { es_ES } from 'ng-zorro-antd/i18n';
+import { registerLocaleData } from '@angular/common';
+import es from '@angular/common/locales/es';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { NzPopconfirmModule } from 'ng-zorro-antd/popconfirm';
+
+registerLocaleData(es);
 
 @NgModule({
   declarations: [
@@ -41,9 +51,15 @@ import { environment } from '../environments/environment';
       // Register the ServiceWorker as soon as the application is stable
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
-    })
+    }),
+    HttpClientModule,
+    BrowserAnimationsModule,
+
+    NzPopconfirmModule
   ],
-  providers: [],
+  providers: [
+    { provide: NZ_I18N, useValue: es_ES }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
